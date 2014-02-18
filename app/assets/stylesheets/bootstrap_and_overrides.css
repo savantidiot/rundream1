@@ -1,0 +1,32 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+
+  body {
+  	background: url('bg-run.jpg');
+  }
+
+  .boxy {
+	box-shadow: 2px -2px 2px 2px rgba(36,32,100,0.30);
+	background-color: rgba(36,32,100,0.50)	;
+	padding: 1%;
+  }
+
+  .custom-h1 {
+  	color: white;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+	font-weight: 100;
+	font-size: 64px;
+	line-height: 64px;
+  }
+
+  h2 {
+	color: white;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+	font-weight: 200;
+	font-size: 30px;
+  }

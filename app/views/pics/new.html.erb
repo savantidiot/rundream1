@@ -1,11 +1,17 @@
-<%= simple_form_for @pic do |f| %>
-	<%= f.input :Name %>
-	<%= f.input :Distance %>
-	<%= f.input :State %>
 
-	<%= submit_tag %>
+<div class="boxy span5 offset3 text-center">
+	<h2>Upload your running info</h2>
+	<%= simple_form_for @pic do |f| %>
+		<%= f.input :Name, label: 'Your username' %>
+		</br>
+		<%= f.input :Distance, placeholder: 'Distance in km' %>
+		</br>
+		<%= f.input :State, placeholder: 'California' %>
+		</br>
+		<%= submit_tag 'Save', :class => 'btn btn-info btn-large' %>
 
-<% end %>
+	<% end %>
+</div>
 
 
 

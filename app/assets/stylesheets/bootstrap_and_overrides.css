@@ -24,6 +24,10 @@
 	line-height: 64px;
   }
 
+.top-buffer {
+	margin-top:20px;
+}
+
   h2 {
 	color: white;
 	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
@@ -31,10 +35,23 @@
 	font-size: 30px;
   }
 
+h3 {
+	color: white;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+	font-weight: 50;
+	font-size: 20px;
+  }
+
   .custom-h1a {
   	color: white;
 	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
 	font-weight: 100;
-	font-size: 34px;
+	font-size: 30px;
 	line-height: 64px;
   }
+
+label {
+	color: white;
+	font-size: 18px;
+}
+

@@ -1,10 +1,19 @@
-<h2>
 
 	<% @pics.each do |pic| %>
+
+<div class="boxy span4 offset1">
+	
+	<h1 class="custom-h1a">
 		Name: <%= pic.Name %>
+	</h1>
+
+	<h2>
 		Distance: <%= pic.Distance %>
+	</h2>
+	<h2>
 		State: <%= pic.State %>
+	</h2>
+
+</div>
 
 	<% end %>
-
-</h2>

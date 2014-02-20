@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140219195425) do
+ActiveRecord::Schema.define(version: 20140220190000) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,6 +20,16 @@ ActiveRecord::Schema.define(version: 20140219195425) do
     t.text     "Name"
     t.integer  "Distance"
     t.string   "State"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "runqs", force: true do |t|
+    t.integer  "racecounth"
+    t.integer  "racecountp"
+    t.string   "distance"
+    t.string   "costp"
+    t.string   "costw"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

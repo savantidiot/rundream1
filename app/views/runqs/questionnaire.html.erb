@@ -1,0 +1,17 @@
+<div class="boxy span5 offset3">
+	<h2>Thank you for taking the time to fill in the below form</h2>
+	<%= simple_form_for @qn do |q| %>
+		<%= q.input :racecounth, label: 'How many races have you run in the last year?' %>
+		</br>
+		<%= q.input :racecountp, label: 'How many races do you plan to run in 2014?' %>
+		</br>
+		<%= q.input :distance, label: 'What distances are you prepared to run' %>
+		</br>
+		<%= q.input :costp, label: 'What is your perceived average cost of a race?' %>
+		</br>
+		<%= q.input :costw, label: 'How much are you willing to pay for a race?' %>
+		</br>
+		<%= submit_tag 'Save', :class => 'btn btn-info btn-large' %>
+
+	<% end %>
+</div>

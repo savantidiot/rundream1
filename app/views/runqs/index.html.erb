@@ -1,0 +1,27 @@
+
+	<% @robj.each do |r| %>
+
+<div class="boxy span4 offset1 top-buffer">
+	
+	<h3>
+		Actualcount: <%= r.racecounth %>
+	</h3>
+
+	<h3>
+		Plannedcount: <%= r.racecountp %>
+	</h3>
+
+	<h3>
+		Distance: <%= r.distance %>
+	</h3>
+	<h3>
+		Avgcost: <%= r.costp %>
+	</h3>
+
+	<h3>
+		Plannedcost: <%= r.costw %>
+	</h3>
+
+</div>
+
+	<% end %>
